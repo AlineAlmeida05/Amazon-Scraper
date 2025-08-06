@@ -1,6 +1,7 @@
 # Amazon Scraper
 
-### Objetivo:  Criar um script simples para extrair listagens de produtos da Amazon da primeira página de resultados de pesquisa para uma determinada palavra-chave.
+## Objetivo:  
+#### Criar um script simples para extrair listagens de produtos da Amazon da primeira página de resultados de pesquisa para uma determinada palavra-chave.
 
 ## Pré-requisitos
 
@@ -23,21 +24,21 @@
 ```
 3.	Instale as dependências do backend:
 ```
-   cd amazon-scraper-backend
-   bun install
-   cd ..
+            cd amazon-scraper-backend
+            bun install
+            cd ..
 ```
 4.	Instale as dependências do frontend:
 ```
-   cd amazon-scraper-frontend
-   npm install
-   cd ..
+            cd amazon-scraper-frontend
+            npm install
+            cd ..
 ```
 
 ## Rodando o projeto
 #### Para rodar backend e frontend juntos em um único terminal, execute na raiz do projeto:
 ```
-   npm run dev
+            npm run dev
 ```
 
 * O backend será iniciado na porta 3000.
@@ -49,11 +50,11 @@
 * Para rodar separadamente:
    * Backend:
    ```
-      cd amazon-scraper-backend
-      bun index.js
+            cd amazon-scraper-backend
+            bun index.js
    ```
    * Frontend:
    ```
-      cd amazon-scraper-frontend
-      npm run dev
+            cd amazon-scraper-frontend
+            npm run dev
   ```
