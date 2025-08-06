@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "scripts": {
+  "dev": "concurrently \"cd amazon-scraper-backend && bun index.js\" \"cd amazon-scraper-frontend && npm run dev\""
+}
+
+
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+input, button {
+  padding: 8px;
+  margin: 8px 0;
+
+}
+input {
+  width: calc(90% - 16px);
+  box-sizing: border-box;
+}
+
+#results {
+  margin-top: 24px;
+}
+
+.product {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.product img {
+  width: 60px;
+  margin-right: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
